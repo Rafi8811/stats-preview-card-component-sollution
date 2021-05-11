@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Sollution](https://github.com/Rafi8811/stats-preview-card-component-sollution)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://festive-galileo-dc95d2.netlify.app/)
 
 ## My process
 
@@ -57,7 +57,7 @@ I want to work on this to make it's width and height perfect because at the mome
 ## Author
 
 - Website - Don't have one 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@rafi8811](https://www.frontendmentor.io/profile/Rafi8811)
 - Twitter - Don't use 
 
 
