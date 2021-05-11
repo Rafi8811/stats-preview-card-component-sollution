@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+body section {
+  background-color: #090b1a;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+@media only screen and (max-width: 768px) {
+  body section {
+    height: auto;
+    padding: 15vh 5%; } }
+body section .container .card {
+  background: #1b1938;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  border: 0px; }
+@media only screen and (max-width: 769px) {
+  body section .container .card {
+    grid-template-columns: 100%;
+    grid-template-rows: 100% 100%; } }
+body section .container .card .card-text {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column; }
+@media only screen and (max-width: 992px) {
+  body section .container .card .card-text {
+    padding: 1.5rem; } }
+@media only screen and (max-width: 769px) {
+  body section .container .card .card-text {
+    padding: 2.5rem;
+    text-align: center; } }
+@media only screen and (max-width: 440px) {
+  body section .container .card .card-text {
+    padding: 2rem; } }
+body section .container .card .card-text h1 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 2.3rem; }
+@media only screen and (max-width: 1100px) {
+  body section .container .card .card-text h1 {
+    font-size: 2rem; } }
+@media only screen and (max-width: 500px) {
+  body section .container .card .card-text h1 {
+    font-size: 1.6rem; } }
+body section .container .card .card-text h1 span {
+  color: #aa5cdb; }
+body section .container .card .card-text p {
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  color: white;
+  margin: 1rem 0;
+  opacity: 0.75;
+  width: 80%; }
+@media only screen and (max-width: 992px) {
+  body section .container .card .card-text p {
+    width: 100%; } }
+@media only screen and (max-width: 769px) {
+  body section .container .card .card-text p {
+    width: 100%;
+    text-align: center; } }
+@media only screen and (max-width: 400px) {
+  body section .container .card .card-text p {
+    font-size: 13px;
+    word-spacing: 1px; } }
+body section .container .card .card-text .stats {
+  font-family: "Lexend Deca";
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-top: 1.5rem;
+  color: white; }
+@media only screen and (max-width: 440px) {
+  body section .container .card .card-text .stats {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+body section .container .card .card-text .stats .stat {
+  width: 33.333333%; }
+@media only screen and (max-width: 400px) {
+  body section .container .card .card-text .stats .stat {
+    width: 100%; } }
+body section .container .card .card-text .stats .stat p {
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+  color: white;
+  opacity: 1; }
+@media only screen and (max-width: 1200px) {
+  body section .container .card .card-text .stats .stat p {
+    font-size: 1.3rem; } }
+body section .container .card .card-text .stats .stat p span {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+  display: block;
+  color: white;
+  opacity: 0.6; }
+@media only screen and (max-width: 1200px) {
+  body section .container .card .card-text .stats .stat p span {
+    font-size: 0.64rem; } }
+body section .container .card .card-img {
+  position: relative;
+  height: 100%;
+  max-width: 100%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem; }
+@media only screen and (max-width: 769px) {
+  body section .container .card .card-img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0.5rem; } }
+body section .container .card .card-img picture img {
+  width: 100%;
+  height: 100%; }
+body section .container .card .card-img:before {
+  position: absolute;
+  background-color: #aa5cdb;
+  content: '';
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  mix-blend-mode: multiply;
+  filter: opacity(0.8); }
+@media only screen and (max-width: 769px) {
+  body section .container .card .card-img:before {
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0.5rem; } }
+body section .end {
+  padding-top: 1rem;
+  font-size: 12px; }
+body section .end a:hover {
+  color: #aa5cdb; }
