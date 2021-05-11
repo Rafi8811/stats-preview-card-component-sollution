@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Sollution](https://github.com/Rafi8811/stats-preview-card-component-sollution)
-- Live Site URL: [Live Site](https://festive-galileo-dc95d2.netlify.app/)
+- Live Site URL: [Live Site](https://stat-prev-card-sollution.netlify.app/)
 
 ## My process
 
